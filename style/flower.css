@@ -1,0 +1,116 @@
+/* unival style  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* common style  */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.bg-primary{
+    background-color: rgba(229, 84, 115, 0.19);
+}
+.bg-secondary{
+    background-color: #111010;
+}
+.color-primary{
+    color:rgba(39, 39, 39, 0.6);
+}
+.color-secondary{
+    color:white;
+}
+.color-tertiary{
+    color:#E55473;
+}
+.text-primary{
+    font-size:55px;
+}
+.text-secondary{
+    font-size:30px;
+}
+.text-tertiary{
+    font-size:20px;
+}
+.text-quaternary{
+    font-size:24px;
+}
+.text-quinary{
+    font-size:20px;
+}
+.text-senary{
+    font-size:14px;
+}
+
+.btn-primary{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background-color:#E55473;
+    color:white;
+}
+
+/* header section banner style  */
+.header-section{
+    width: 100%;
+    max-height: 100vh;
+    background-color: rgba(229, 84, 115, 0.19);
+    margin-bottom: 100px;
+}
+
+.banner{
+    display:flex;
+    gap:100px;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 200px;
+}
+.banner-description{
+    margin:24px 0px;
+}
+.banner-img{
+    width:500px;
+    height:729px;
+    padding-top:40px;
+}
+
+/* main section style */
+
+/* special deal  */
+.special-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;   
+    padding:0px 240px;
+    margin-bottom:100px;
+}
+
+.deal-column{
+    text-align: center;
+}
+.deal-description{
+    margin:20px 0px 24px 0px;
+}
+.deal-img{
+    margin-top:30px;
+}
+
+/* footer section style */
+.footer-section{
+    text-align: center;
+    padding:128px 0px;
+}
+.footer-title{
+    color:white;
+}
+.footer-description{
+    width: 500px;
+    margin:16px auto 20px;
+    color:rgba(255, 255, 255, 0.851);
+
+}
+.copyright{
+    color:rgba(255, 255, 255, 0.4);
+}
