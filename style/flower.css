@@ -1,4 +1,4 @@
-/* unival style  */
+/* Universal style  */
 *{
     padding:0;
     margin:0;
@@ -9,12 +9,23 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+/* background color  */
 .bg-primary{
     background-color: rgba(229, 84, 115, 0.19);
 }
 .bg-secondary{
     background-color: #111010;
 }
+.bg-tertiary{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.bg-quaternary{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.bg-quinary{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/* text color  */
 .color-primary{
     color:rgba(39, 39, 39, 0.6);
 }
@@ -24,6 +35,7 @@ body{
 .color-tertiary{
     color:#E55473;
 }
+/* font-size  */
 .text-primary{
     font-size:55px;
 }
@@ -31,10 +43,10 @@ body{
     font-size:30px;
 }
 .text-tertiary{
-    font-size:20px;
+    font-size:18px;
 }
 .text-quaternary{
-    font-size:24px;
+    font-size:16px;
 }
 .text-quinary{
     font-size:20px;
@@ -76,7 +88,61 @@ body{
 }
 
 /* main section style */
+/* features section style  */
+.feature-section{
+    padding:0px 200px;
+    margin-bottom:100px;
+}
+.feature-title,
+.feature-description,
+.social-title,
+.social-description,
+.sub-title,
+.sub-details{
+    text-align:center;
+}
+.feature-description{
+    margin:24px auto 48px ;
+    width: 500px;
+}
+.features{
+    display:flex;
+    align-items: center;
+    gap:24px;
+}
+.feature-details{
+    text-align: center;
+    text-decoration: underline;
+    color:rgba(39, 39, 39, 1);
+    font-weight: 700;
+}
+.feature img{
+    width:357px;
+    height:450px;
+    padding:110px 50px 0px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    margin-bottom: 24px;
+}
 
+/* extra features section style  */
+.extra-features{
+    padding:0px 200px;
+    margin-bottom: 100px;
+}
+.feature-infos{
+    background-color:rgba(39, 39, 39, 0.05);
+    display: flex;
+    gap:100px;
+    padding:86px 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+.info-description{
+    margin-top:24px;
+    color:rgba(39, 39, 39, 0.8);
+
+}
 /* special deal  */
 .special-deal{
     display: flex;
@@ -96,7 +162,45 @@ body{
 .deal-img{
     margin-top:30px;
 }
-
+/* social section  */
+.social-section{
+    margin-bottom:100px;
+}
+.socials{
+    padding:0px 200px;
+    display: flex;
+    gap:20px;
+}
+.social-description{
+    width: 500px;
+    margin:15px auto 48px;
+}
+.socials img{
+    width: 265px;
+}
+/* subscriber section  */
+.subscription{
+    padding:0px 200px;
+    margin-bottom: 100px;
+}
+.inner-sub{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    padding:122px 287px;
+    border-radius: 5px;
+}
+.sub-details{
+    margin:20px 0px 35px;
+}
+form{
+    display: flex;
+    gap:20px;
+    m
+}
+input{
+    border:none;
+    padding:15px 300px 15px 22px;
+    border-radius: 5px;
+}
 /* footer section style */
 .footer-section{
     text-align: center;
